@@ -1,0 +1,31 @@
+{
+  "inference_pack_request_decode_unchanged": true,
+  "inference_method_only_adds_sample_tracking_after_timing": true,
+  "rtl_simulation": "84 original inference packets + 171 read-only requests PASS",
+  "pl_cycles": 713,
+  "baseline_bit_sha256": "8e7cde203f09fa2e44781942d784670ab09e8b68963617e293928672c60dcbe9",
+  "candidate_board_verified": true,
+  "interactive_menu_verified": true,
+  "unchanged_compute_RTL_and_weights": true,
+  "board_selftest_mean_us": 9.956,
+  "board_menu_mean_us": 9.948,
+  "PL_us": 4.991,
+  "power_W": 1.512,
+  "resources": {
+    "LUT": 4568,
+    "LUT_as_Memory": 402,
+    "FF": 4893,
+    "BRAM": 24.5,
+    "DSP": 130
+  },
+  "setup_slack_ns": 0.588,
+  "hold_slack_ns": 0.02,
+  "board_files": {
+    "mlp.bit": "f64cd6af693b84b4b462ae9400b114e32d70a9e18b1155fbef6f9da45a473552",
+    "mlp.hwh": "9e3a6f8c57f19363a717051aa954bd6ce8add65d3956e611a5f141ed58764e61",
+    "power_W": 1.512,
+    "PL_cycles": 713,
+    "CPU_MHz": 325,
+    "PL_MHz": 142.85714285714286
+  }
+}

@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Nov 24 12:34:36 2026
+# Process ID: 7208
+# Current directory: D:/Workspace/Vivado_project/MLP_Accelerator
+# Command line: xsim.exe -log build/explore/r108_readonly/readonly_sim.log -mode tcl -source {xsim.dir/r108_readonly/xsim_script.tcl}
+# Log file: D:/Workspace/Vivado_project/MLP_Accelerator/build/explore/r108_readonly/readonly_sim.log
+# Journal file: D:/Workspace/Vivado_project/MLP_Accelerator\xsim.jou
+# Running On: LAPTOP-K14IFCP3, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 16, Host memory: 33413 MB
+#-----------------------------------------------------------
+source xsim.dir/r108_readonly/xsim_script.tcl
+# xsim {r108_readonly} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+AXIS P=128 sample=0 mode=0 cycles=713
+AXIS P=128 sample=0 mode=1 cycles=713
+AXIS P=128 sample=1 mode=0 cycles=713
+AXIS P=128 sample=1 mode=1 cycles=713
+AXIS P=128 sample=2 mode=0 cycles=713
+AXIS P=128 sample=2 mode=1 cycles=713
+AXIS P=128 sample=3 mode=0 cycles=713
+AXIS P=128 sample=3 mode=1 cycles=713
+AXIS P=128 sample=4 mode=0 cycles=713
+AXIS P=128 sample=4 mode=1 cycles=713
+AXIS P=128 sample=5 mode=0 cycles=713
+AXIS P=128 sample=5 mode=1 cycles=713
+AXIS P=128 sample=6 mode=0 cycles=713
+AXIS P=128 sample=6 mode=1 cycles=713
+AXIS P=128 sample=7 mode=0 cycles=713
+AXIS P=128 sample=7 mode=1 cycles=713
+AXIS P=128 sample=8 mode=0 cycles=713
+AXIS P=128 sample=8 mode=1 cycles=713
+AXIS P=128 sample=9 mode=0 cycles=713
+AXIS P=128 sample=9 mode=1 cycles=713
+AXIS P=128 sample=10 mode=0 cycles=713
+AXIS P=128 sample=10 mode=1 cycles=713
+AXIS P=128 sample=11 mode=0 cycles=713
+AXIS P=128 sample=11 mode=1 cycles=713
+AXIS P=128 sample=12 mode=0 cycles=713
+AXIS P=128 sample=12 mode=1 cycles=713
+AXIS P=128 sample=13 mode=0 cycles=713
+AXIS P=128 sample=13 mode=1 cycles=713
+AXIS P=128 sample=14 mode=0 cycles=713
+AXIS P=128 sample=14 mode=1 cycles=713
+AXIS P=128 sample=15 mode=0 cycles=713
+AXIS P=128 sample=15 mode=1 cycles=713
+AXIS P=128 sample=16 mode=0 cycles=713
+AXIS P=128 sample=16 mode=1 cycles=713
+AXIS P=128 sample=17 mode=0 cycles=713
+AXIS P=128 sample=17 mode=1 cycles=713
+AXIS P=128 sample=18 mode=0 cycles=713
+AXIS P=128 sample=18 mode=1 cycles=713
+AXIS P=128 sample=19 mode=0 cycles=713
+AXIS P=128 sample=19 mode=1 cycles=713
+AXIS P=128 sample=20 mode=0 cycles=713
+AXIS P=128 sample=20 mode=1 cycles=713
+AXIS P=128 sample=21 mode=0 cycles=713
+AXIS P=128 sample=21 mode=1 cycles=713
+AXIS P=128 sample=22 mode=0 cycles=713
+AXIS P=128 sample=22 mode=1 cycles=713
+AXIS P=128 sample=23 mode=0 cycles=713
+AXIS P=128 sample=23 mode=1 cycles=713
+AXIS P=128 sample=24 mode=0 cycles=713
+AXIS P=128 sample=24 mode=1 cycles=713
+AXIS P=128 sample=25 mode=0 cycles=713
+AXIS P=128 sample=25 mode=1 cycles=713
+AXIS P=128 sample=26 mode=0 cycles=713
+AXIS P=128 sample=26 mode=1 cycles=713
+AXIS P=128 sample=27 mode=0 cycles=713
+AXIS P=128 sample=27 mode=1 cycles=713
+AXIS P=128 sample=28 mode=0 cycles=713
+AXIS P=128 sample=28 mode=1 cycles=713
+AXIS P=128 sample=29 mode=0 cycles=713
+AXIS P=128 sample=29 mode=1 cycles=713
+AXIS P=128 sample=30 mode=0 cycles=713
+AXIS P=128 sample=30 mode=1 cycles=713
+AXIS P=128 sample=31 mode=0 cycles=713
+AXIS P=128 sample=31 mode=1 cycles=713
+AXIS P=128 sample=32 mode=0 cycles=713
+AXIS P=128 sample=32 mode=1 cycles=713
+AXIS P=128 sample=33 mode=0 cycles=713
+AXIS P=128 sample=33 mode=1 cycles=713
+AXIS P=128 sample=34 mode=0 cycles=713
+AXIS P=128 sample=34 mode=1 cycles=713
+AXIS P=128 sample=35 mode=0 cycles=713
+AXIS P=128 sample=35 mode=1 cycles=713
+AXIS P=128 sample=36 mode=0 cycles=713
+AXIS P=128 sample=36 mode=1 cycles=713
+AXIS P=128 sample=37 mode=0 cycles=713
+AXIS P=128 sample=37 mode=1 cycles=713
+AXIS P=128 sample=38 mode=0 cycles=713
+AXIS P=128 sample=38 mode=1 cycles=713
+AXIS P=128 sample=39 mode=0 cycles=713
+AXIS P=128 sample=39 mode=1 cycles=713
+AXIS P=128 sample=40 mode=0 cycles=713
+AXIS P=128 sample=40 mode=1 cycles=713
+AXIS P=128 sample=41 mode=0 cycles=713
+AXIS P=128 sample=41 mode=1 cycles=713
+READ_ONLY_PASS requests=171; no launch, no writes, exact retained features
+PASS tb_axis P=128: 84 packets, random input bubbles/output stalls, all features, error packet
+$finish called at time : 994145 ns : File "D:/Workspace/Vivado_project/MLP_Accelerator/build/explore/r108_readonly/tb_readonly.sv" Line 108
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:07:12 . Memory (MB): peak = 219.750 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 35064 KB (Peak: 35064 KB), Simulation CPU Usage: 416062 ms
+INFO: [Common 17-206] Exiting xsim at Tue Nov 24 12:41:52 2026...

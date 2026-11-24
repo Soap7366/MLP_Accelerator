@@ -1,0 +1,24 @@
+{
+  "kernel": "6.6.10-xilinx-v2024.1-g3c0eca68c652",
+  "files": {
+    "clock_config.py": "1b80f12ab94f3f4b7b46e64636421679b39d6c030a7a2c4c1f42d28de28af254",
+    "compile.sh": "d146cae21ba91c24a0f98cbe02e397e896714fb431f39ca029cd505b4f770419",
+    "demo_modes.py": "8f93389fa21a41a5d2a4bab8106457bc871a596af1f5a3c207de2aab68e95012",
+    "dma_fast.c": "cdbc5c23a4e8e253fe86b2c17f908618761e61a7a16d78b91bfc8a4c2fc986d7",
+    "fast_dma.py": "588a71949412220d7ee1cb6cbf4dfc874271cddf968dc6e8f234e1d796c2cacc",
+    "native_timing.c": "fba2569f059bf8db1e8c803cf62dc1e98a1d4344a3a4b50c56609dc041a1cf94",
+    "quiet_dma.c": "47dc85f2a82783f2d8d7edb83f2a8c14a96a193e846acfe9ffe09d25771507c3",
+    "quiet_transport.py": "2ff539640050009f9971b0ca1f477d7c35f5fb0d64aa8af7d46949744879c6d7",
+    "read_existing.c": "b36207e60399d3443d78a862d71f8878cefa97f096d6ec9feaf8c1ea0b88acc6",
+    "run.sh": "7cc85f188b8134c6100436162d9ed3dc961794036f19e4815fc62693a66b0fdf",
+    "test_vectors.npz": "e8c85ab78500414493333b427ef83c377f639161a4ee3177713b91ceed351665",
+    "timer_backend.py": "bc30d6dd2705eb01cdea73a1aab563262e863e73409d18602ca4e9a1d2e6e19a",
+    "uncached_buffer.py": "3a030f7a1610c14b5cb9558874f88c7056a48df64ae9133ab454d4ffe1f67d94",
+    "cpufreq/Makefile": "45a4c11a90f545f48890ca0c372a6faba67ee591eae98181817984417a3c0db3",
+    "cpufreq/mlp_fixed_cpufreq.c": "c9823107de9f5904bd2d676c99fa8c37107f2a215feb33f3e89de2a9926efe09",
+    "cpufreq/mlp_fixed_cpufreq.ko": "7621a583106489a77a744fdb65a2c123283a80ad92eb77a8b76efc5dc325184f",
+    "r108_readonly/mlp.bit": "f64cd6af693b84b4b462ae9400b114e32d70a9e18b1155fbef6f9da45a473552",
+    "r108_readonly/mlp.hwh": "9e3a6f8c57f19363a717051aa954bd6ce8add65d3956e611a5f141ed58764e61",
+    "r108_readonly/release.json": "2420adb34ad63c7afabbdfeada0b3747c8503199fa45552471ac396bcf386d58"
+  }
+}

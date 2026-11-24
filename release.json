@@ -1,0 +1,24 @@
+{
+  "mlp.bit": "f64cd6af693b84b4b462ae9400b114e32d70a9e18b1155fbef6f9da45a473552",
+  "mlp.hwh": "9e3a6f8c57f19363a717051aa954bd6ce8add65d3956e611a5f141ed58764e61",
+  "power_W": 1.512,
+  "PL_cycles": 713,
+  "CPU_MHz": 325,
+  "PL_MHz": 142.85714285714286,
+  "name": "MLP_Accelerator",
+  "candidate": "r108_readonly",
+  "tag": "v1.4.0-r108-readonly",
+  "accuracy": "42/42 calibration samples",
+  "PS_PL_PS_mean_us": 9.948,
+  "PS_PL_PS_median_us": 9.985,
+  "power_scope": "Vivado routed vectorless total on-chip estimate including PS, not measured board power",
+  "resources": {
+    "LUT": 4568,
+    "LUT_as_Memory": 402,
+    "FF": 4893,
+    "BRAM": 24.5,
+    "DSP": 130
+  },
+  "board_verified": true,
+  "portable_launcher_board_retest": "Not performed: COM11 unavailable; original final hardware/menu board evidence included"
+}

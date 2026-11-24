@@ -1,0 +1,8 @@
+{
+  "mlp_arm_sync.v": "95b525bf3978301d4ddd4ed4e2f3e16741b46aff89d79fc9a5f91a3f1c3de937",
+  "mlp_axis.v": "9ec9fb96b1f8362adf939216146d30a2bef622600df05f3d8905322c52391dda",
+  "mlp_cascade.sv": "843eb4cdd2c13caa2c457147d7d0fb663c282617900643431e1f8e083df3c928",
+  "mlp_core.sv": "68f2ed9ef7ccb5644d4a5266a4f6708dca1b6a376cb1348112ce5b66085be171",
+  "mlp_pe.sv": "73614125d7bfd4de68cf3c434b839d2bde6efc26c46ec71dd04d202bbecaf3d6",
+  "mlp_requant.sv": "ff4b7ebfc6cb57718d04ca4954f7d05b9c5cff6742d311bfba29c8fcdf68f50c"
+}

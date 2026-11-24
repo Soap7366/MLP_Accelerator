@@ -1,0 +1,8 @@
+build/
+.Xil/
+__pycache__/
+*.pyc
+*.jou
+*.log
+*.so
+ps/results/

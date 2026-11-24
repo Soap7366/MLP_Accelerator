@@ -1,0 +1,86 @@
+{
+  "scheme": "Static PTQ W8A8: symmetric per-output-channel weights, per-tensor activations; all zero points 0",
+  "integer_arithmetic": "int8 operands, int32 bias/MAC, int64 multiplier product and shift; no float operations in forward",
+  "calibration": {
+    "samples": 42,
+    "method": "FP forward absolute maximum / 127, without labels",
+    "same_file_as_evaluation": true
+  },
+  "fp32": {
+    "correct": 42,
+    "total": 42,
+    "accuracy": 1.0,
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        21,
+        0
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "misclassified_indices_1_based": []
+  },
+  "int8": {
+    "correct": 42,
+    "total": 42,
+    "accuracy": 1.0,
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        21,
+        0
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "misclassified_indices_1_based": []
+  },
+  "accuracy_change_percentage_points": 0.0,
+  "prediction_agreement": 1.0,
+  "changed_predictions_indices_1_based": [],
+  "output_ties": 0,
+  "dequantized_logits_mae": 0.06280215630712682,
+  "dequantized_logits_max_absolute_error": 0.2211154594460636,
+  "layers": [
+    {
+      "layer": 1,
+      "output_scale": 0.29591160345243706,
+      "clipped_values": 0,
+      "activation_values": 5376,
+      "accumulator_max_abs": 108425
+    },
+    {
+      "layer": 2,
+      "output_scale": 0.15571127023897727,
+      "clipped_values": 0,
+      "activation_values": 1344,
+      "accumulator_max_abs": 86436
+    },
+    {
+      "layer": 3,
+      "output_scale": 0.17123199033540937,
+      "clipped_values": 0,
+      "activation_values": 84,
+      "accumulator_max_abs": 63339
+    }
+  ],
+  "storage": {
+    "fp32_weights_and_bias_bytes": 279432,
+    "int8_weights_and_int32_bias_bytes": 70344,
+    "all_exported_arrays_bytes": 73620,
+    "npz_file_bytes": 78762
+  },
+  "verification": "Passed independent int64 MAC, Python integer requantization, rounding boundaries and export/reload equality",
+  "sources_sha256": {
+    "D:\\Workspace\\MLP\\原始模型文件\\2-FCNet1-485-0.945.pth": "0b9ead675fc52fe80ceb6958b0745bf79aa3415487a5620e96ec0ccce1f4b1ca",
+    "D:\\Workspace\\MLP\\输入数据\\sel_data.coe": "aa71e676f5a5093c21256ca5e1a91d9596116bc5e3a122ddf3b64732b0e18911",
+    "D:\\Workspace\\MLP\\输入数据标签\\sel_labels.txt": "58c0e2c3f8843200aca9b72a0b6f62e64f2cfea8455f685f2ce58a7459cf7a43"
+  },
+  "versions": {
+    "torch": "2.9.1+cu128",
+    "numpy": "2.2.6"
+  }
+}
